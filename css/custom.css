@@ -1,0 +1,66 @@
+/* .text-pri {color: red;}
+.text-sec {color: #4488dd;} */
+
+/* google雲端字體 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+:root,
+[data-bs-theme=light] {
+--bs-dark-rgb: 0, 40, 80;
+}
+/* 雲端字體套用在body標籤 */
+body{
+    font-family: "微軟正黑體","Noto Sans TC", sans-serif;
+  }
+
+/* 選取器是標籤，影響整體 */
+h2 {font-size: 2rem;font-weight: 900;color: rgb(39, 102, 229);}
+
+/* 選取器是類別，影響個別，需要手動套用 */
+.h2-custom-pink {font-size: 3rem;font-weight: 900;color: rgb(255, 0, 195);}
+
+/* 自訂邊框樣式 */
+.card-custom{
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
+  border-radius: 5px;
+}
+
+/* 拿掉文字超連結下底線 */
+footer a {
+    text-decoration: none;
+}
+
+/* 文字首排縮 */
+.textIndent{text-indent :2rem;}
+/* 文字色彩 */
+.text-orang{color:#d7580f;}
+
+ 
+/* 標題Icons */
+iconsTitle{
+  font-size:2.3rem;
+  color: rgb(39, 102, 229);
+  vertical-align: bottom;
+}
+/* 編號清單-類別選取器 */
+.list-no {list-style-type: decimal-leading-zero;}
+
+/* 編號清單-類別選取器 */
+.list-symbol {list-style-type:circle;}
+
+/* 住宿資訊hotel.html，取消邊框，以類別作為選取器 */
+.card-no-border{
+    border: none;
+}
+
+/* 選取器是標籤，影響整體 */
+h5 {font-weight: 900;}
+
+/* 無障礙-文字對比 */
+/* 第一種作法 */
+footer{background-color: #557722;color: #77FFFF;}
+
+/* 無障礙-文字對比 */
+/* 第二種作法 */
+/* .footer-bg-text{background-color:  #114444;color: #22FF00;} */
